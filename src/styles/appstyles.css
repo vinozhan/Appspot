@@ -1,0 +1,82 @@
+.container {
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:0;
+}
+
+.logo{
+width:50px;
+height:auto;
+}
+
+h1{
+font-size:25px;
+margin-left:5px;
+margin-right:30px;
+}
+
+ul.menu{
+list-style-type:none;
+margin:0;
+padding:0;
+display:flex;
+flex-wrap:nowrap;
+}
+
+li.menu{
+padding:0 2px;
+}
+
+li a{
+display:block;
+color:red;
+text-align:center;
+padding:10px;
+text-decoration:none;
+}
+
+li a:hover{
+background-color:green;
+padding:15px;
+}
+
+.search{
+margin-left:20px;
+}
+
+.login{
+margin-right:20px;
+}
+
+.p1{
+font-family:tahoma;
+font-size:20px;
+}
+
+.applogo{
+width:100px;
+height:auto;
+padding:10px;
+}
+
+.more{
+margin-right:20px;
+}
+
+.app-container{
+text-align:center
+}
+
+.app-name{
+margin-top:2px;
+}
+.app-link {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Inherit text color from parent */
+}
+
+.app-link:hover {
+    opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+}
+
